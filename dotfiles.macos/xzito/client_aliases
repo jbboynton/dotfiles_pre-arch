@@ -1,0 +1,21 @@
+# Aliases to client sites
+alias caliases="vim ~/.dotfiles/xzito/client_aliases"
+
+# Outdated (migrated from GoDaddy to SiteGround)
+#alias heroicassh="ssh g7e63566944161@www.heroicaconstruction.com"
+alias sesassh2="ssh fa443576376132@www.sesamerica.com"
+
+# Client repo aliases
+alias ascend="atom ~/ClientRepos/ascend"
+# alias esmv="atom ~/ClientRepos/ESMV/" old site
+alias esmv="atom ~/ClientRepos/ESMV/"
+alias heroica="atom ~/ClientRepos/Heroica/"
+alias horner="atom ~/ClientRepos/HornerMillwork/"
+alias lms="atom ~/ClientRepos/LMS/"
+alias mcvan="atom ~/ClientRepos/McVan/"
+alias metlife="atom ~/ClientRepos/metlife/"
+alias ritelephone="atom ~/ClientRepos/ritelephone"
+alias sesa="atom ~/ClientRepos/SESA/"
+
+# Backup aliases
+alias -g bk="'bash -s' < ~/scripts/backup-tool/jb_backup"

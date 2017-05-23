@@ -1,0 +1,28 @@
+alias aliases="vim ~/.dotfiles/zsh/aliases"
+alias app="open -a"
+alias be="bundle exec"
+alias hide_files="defaults write com.apple.finder AppleShowAllFiles NO && killall Finder"
+alias ll="ls -alFhG"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias rtm="bin/rails db:migrate RAILS_ENV=test"
+alias show_files="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
+alias sourcez="source ~/.zshrc"
+alias sshconfig="vim ~/.ssh/config"
+alias szsh="source ~/.zshrc"
+alias tmuxconfig="vim ~/.tmux.conf"
+alias tree="tree -aC"
+alias v="vim ."
+alias vgs="vagrant global-status"
+alias vimconfig="vim ~/.vimrc"
+alias vu="vagrant up"
+alias zim="pythonw /Users/computer14/Scripts/Zim/zim-0.65/zim.py"
+alias zshconfig="vim ~/.zshrc"
+
+# grep alias optimized for grepping source folders.
+alias repogrep="grep -inIEr --color=ALWAYS -- "
+
+# Copy public key
+alias copykey="pbcopy < ~/.ssh/id_rsa.pub && echo 'Key successfully copied to clipboard'"
+
