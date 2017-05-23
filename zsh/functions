@@ -1,0 +1,19 @@
+function cdl {
+  builtin cd "$@" && ls -alFh --color
+}
+
+function apty {
+  apt install $@ -y
+}
+
+function g {
+  if [[ $# > 0 ]]; then
+    git $@
+  else
+    git status
+  fi
+}
+
+function gcm {
+  git commit -m "$*"
+}

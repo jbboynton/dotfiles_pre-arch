@@ -1,0 +1,12 @@
+# Completion
+fpath=(~/.zsh/completion-scripts /usr/local/share/zsh/site-functions $fpath)
+autoload -Uz compinit && compinit
+autoload -Uz bashcompinit && bashcompinit
+autoload -Uz promptinit && promptinit
+
+# Don't offer the current directory as a completion option
+zstyle ':completion:*cd:*' ignore-parents parent pwd
+
+# Colored completions
+zstyle ':completion:*ls:*:*' list-colors "$LS_COLORS"
+
