@@ -1,6 +1,10 @@
 # Use vi for keybinding
 bindkey -v
 
+# Set up cdpath for quick cd-ing
+setopt auto_cd
+cdpath=($HOME/code $HOME/Desktop)
+
 # Bump up history settings
 HISTSIZE=20000
 HISTFILE=~/.zsh_history
@@ -19,4 +23,3 @@ export PATH="$HOME/dotfiles/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
